@@ -1,0 +1,16 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Knowledge base (rebuild with python -m rag.ingest)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/

@@ -1,0 +1,21 @@
+# Multi-Agent Databricks Tutor — Dependencies
+
+# LangChain ecosystem
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-groq==0.1.9
+langgraph==0.2.28
+
+# Embeddings (free, local)
+sentence-transformers==3.0.1
+
+# Vector store (local, no server needed)
+chromadb==0.5.5
+
+# Web scraping (for ingesting Databricks docs)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Utilities
+python-dotenv==1.0.1
+rich==13.8.1        # pretty CLI output
